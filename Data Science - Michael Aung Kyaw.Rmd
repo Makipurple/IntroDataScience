@@ -1,0 +1,41 @@
+---
+title: "Writing scientific reports"
+author: "Michael Aung Kyaw"
+date: "(`r format(Sys.time(), '%d %B, %Y')`)"
+output: 
+  github_document
+---
+
+# Vervet Monkeys
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Social life and living
+The vervet monkey *Chlorocebus pygerythrus*, or simply vervet, is an **Old World monkey** of the family **Cercopithecidae** native to Africa. The term "vervet" is also used to refer to all the members of the genus **Chlorocebus**. The five distinct subspecies can be found mostly throughout Southern Africa, as well as some of the eastern countries. Vervets were introduced to Florida, St. Kitts and Nevis, Barbados, and Cape Verde
+
+## Scientific classification
+
+* Kingdom	**Animalia**
+* Phylum	**Chordata**
+* Class	**Mammalia**
+* Order  **Primates**
+* Suborder	**Haplorhini**
+* Infraorder	**Simiiformes**
+* Family	**Cercopithecidae**
+* Genus	**Chlorocebus**
+* Species	**C. pygerythrus**
+
+## Adult Vervet Monkey
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Black_faced_vervet_monkey.jpg/440px-Black_faced_vervet_monkey.jpg)
+
+## Data set on Beavers instead of Vervet Monkeys
+```{r beaver2}
+  library(knitr)
+  kable(beaver2)
+```
+
+
+## References
+*T.Chapman*, *Colin A*. et *al*. (2017), Data from: *Social behaviours and networks of vervet monkeys are influenced by gastrointestinal parasites, Dryad, Dataset*
